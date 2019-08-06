@@ -1,0 +1,85 @@
+p {
+  text-align: left;
+  font-size: 30px;
+}
+
+.parallaxHeight {
+  height: 100vh;
+}
+
+.parallaxHeight2 {
+  height: 65vh;
+}
+
+.aboutMe img {
+  width: 100vw;
+}
+
+.textForTitle p {
+  text-align: center;
+  font-size: 35;
+  font-family: 'Oswald', sans-serif;
+  line-height: 1.2;
+}
+
+.Page100 {
+  height: 100vh;
+}
+
+video{
+  object-fit: cover;
+}
+
+.video {
+  width: 100%;
+}
+
+.text2 {
+  padding-top: 8%;
+}
+
+.padding-0{
+  padding-right:0 !important;
+  padding-left:0 !important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .text2 {
+    padding-top: 20px;
+  }
+
+  .parallaxHeight{
+    height: 85vh;
+  }
+
+  .insideStyles{
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .textInTheMiddle {
+    top: 50%;
+    bottom: 50%;
+    transform: translate(0%, 60%);
+  }
+
+  .textInTheMiddle2 {
+    top: 50%;
+    bottom: 50%;
+    transform: translate(0%, 75%);
+  }
+
+  div {
+    margin: 0 auto;
+  }
+}
